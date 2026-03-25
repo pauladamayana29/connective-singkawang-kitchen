@@ -15,18 +15,18 @@ import tausi from "@/assets/food-tausi.jpg";
 import nasicampur from "@/assets/food-nasicampur.jpg";
 
 const galleryImages = [
-  { src: heroImg, alt: "Restaurant interior with red lanterns", span: "col-span-2 row-span-2" },
+  { src: heroImg, alt: "Restaurant interior with red lanterns", span: "col-span-2" },
   { src: kwetiau, alt: "Kwetiau Goreng Singkawang", span: "" },
   { src: chefImg, alt: "Chef cooking with wok", span: "" },
   { src: choipan, alt: "Choipan dumplings", span: "" },
-  { src: interior, alt: "Buffet display counter", span: "col-span-2" },
-  { src: bakso, alt: "Bakso Ikan soup", span: "" },
-  { src: exteriorImg, alt: "Restaurant exterior at night", span: "col-span-2 row-span-2" },
+  { src: interior, alt: "Buffet display counter", span: "" },
+  { src: bakso, alt: "Bakso Ikan soup", span: "col-span-2" },
+  { src: exteriorImg, alt: "Restaurant exterior at night", span: "col-span-2" },
   { src: fuyunghai, alt: "Fu Yung Hai", span: "" },
-  { src: familyImg, alt: "Family dining together", span: "col-span-2" },
+  { src: familyImg, alt: "Family dining together", span: "" },
   { src: kodok, alt: "Kodok Goreng Mentega", span: "" },
   { src: tausi, alt: "Ikan Tahu Tausi", span: "" },
-  { src: nasicampur, alt: "Nasi Campur Hakka", span: "" },
+  { src: nasicampur, alt: "Nasi Campur Hakka", span: "col-span-2" },
 ];
 
 const GalleryPage = () => (
